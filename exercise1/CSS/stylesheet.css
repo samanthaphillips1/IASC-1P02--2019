@@ -1,0 +1,9 @@
+#firstHeader {
+	color: red;
+	font: bold 35px Arial, serif;
+}
+
+p.greenText {
+	color: green;
+	font: italic 15px Arial, serif;
+}
