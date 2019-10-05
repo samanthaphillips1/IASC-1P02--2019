@@ -1,0 +1,29 @@
+body {
+	background-color: blue;
+}
+
+.honeybadgerClass {
+	width: 80%;
+	border: solid black 4px;
+	padding: 20px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	margin: 10%;
+}
+
+
+.honeybadgerClass img {
+	border: dashed yellow 2px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding: 20px;
+
+}
+
+
+.honeybadgerClass p {
+	border: dashed green 2px;
+	padding: 5px;
+	color: red;
+
+}

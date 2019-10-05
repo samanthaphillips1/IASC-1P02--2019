@@ -1,0 +1,39 @@
+.centerContent {
+	border: purple dotted 2px;
+	padding-top: 120px;
+	text-align: center;
+	font-size: 15px;
+}
+.leftContent {
+	font-size: 30px;
+	text-align: left;
+}
+
+.rightContent {
+	text-align: right;
+	font-size: 5px;
+}
+
+#greenText {
+	color: green;
+	font-size: 12px;
+	text-align: center;
+}
+
+#yellowText {
+	color: yellow;
+}
+
+#redText {
+	color: red;
+	vertical-align: super;
+}
+
+#purpleText {
+	color: purple;
+}
+
+#toUpper {
+	text-transform: uppercase;
+	color: yellow;
+}
