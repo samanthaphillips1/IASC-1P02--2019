@@ -1,0 +1,41 @@
+body{
+	background-color:green;
+}
+
+nav{ 
+	background-color: orange; 
+	height: 50px;
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+#nav{
+	background-color: pink;
+	float:left;
+}
+
+#wrapper{
+	width:75%;
+	margin:0 auto;
+}
+
+#header{
+	height:50px;
+	text-align:center;
+	background-color:red;
+	margin: 0 auto;		
+}
+
+#leftbody{
+	height: 500px;
+	background-color:blue;
+	font-weight: bold;
+}
+
+#bottom{
+	text-align:left;
+	height:50px;
+	clear:both;
+	background: yellow;
+	font-weight: bold;
+}

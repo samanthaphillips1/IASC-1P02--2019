@@ -1,0 +1,35 @@
+﻿body{
+	color:white;
+	background-color:black;
+}
+
+#header h2 {
+	padding:10px;
+}
+
+#wrapper{
+	width:95%;
+	margin:0 auto;
+	background-color:white;
+}
+
+#header{
+	height:50px;
+	text-align:center;
+	background-color:red;
+	margin: 0 auto;		
+}
+
+#leftbody{
+	height: 500px;
+	background-color:green;
+	padding-top:10px;
+}
+
+#bottom{
+	text-align:left;
+	height:50px;
+	clear:both;
+	background: blue;
+	padding-top: 5px;
+}
