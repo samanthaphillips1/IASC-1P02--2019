@@ -1,0 +1,47 @@
+.mustard {
+	color: yellow;
+	font-size: 25px;
+	font-family: Arial;
+}
+
+.ketchup {
+	font-size: 25px;
+}
+
+.relish {
+	font-family: Arial;
+}
+
+
+.mustard, .ketchup, .relish {
+	font-weight: 1000;
+	background-color: purple;
+}
+
+.dogs {
+	text-transform: uppercase;
+}
+
+.LoremIpsum {
+	background-color: blue;
+	position: absolute;
+	left: 350px;
+}
+
+.Tombencarso {
+	background-color: green;
+	position: relative;
+}
+
+.Garfield {
+	background-color: red;
+	position: fixed;
+	left: 100px;
+	top: 100px;
+}
+
+.boxModel {
+	margin: 10px;
+	border-style: dotted;
+	padding: 50px;
+}
