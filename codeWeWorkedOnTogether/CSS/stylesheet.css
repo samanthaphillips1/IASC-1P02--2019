@@ -1,0 +1,76 @@
+/*This is our css*/
+
+
+#wrapper{
+    width: 1500px;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+#top-header {
+  background-color: black;
+  padding: 25px;
+  color: black;
+}
+
+#center-header {
+  background-color: red;
+  padding: 25px;
+  color: red;
+}
+
+#bottom-header {
+  background-color: yellow;
+  padding: 25px;
+  color: yellow;
+}
+
+#slogan {
+  text-align: center;
+  font-size: 37px;
+  font-family: Arial;
+}
+
+#logo {
+  float: left; 
+  margin-left: 43%;
+}
+
+#reservation {
+  text-align: center;
+  font-size: 25px;
+}
+
+.contentheader {
+  font-size: 35px;
+}
+
+#information {
+  background-color: grey;
+  font-family: sans-serif;
+  font-size: 30px;
+  padding: 40px;
+  width: 75%;
+  margin-left: 10%;
+}
+
+#menu {
+  background-color: grey;
+  font-family: sans-serif;
+  font-size: 30px;
+  padding: 40px;
+  width: 75%;
+  margin-left: 10%;
+}
+
+#entertainment {
+  background-color: grey;
+  font-family: sans-serif;
+  font-size: 30px;
+  padding: 40px;
+  width: 75%;
+  margin-left: 10%;
+}
+
+
+
