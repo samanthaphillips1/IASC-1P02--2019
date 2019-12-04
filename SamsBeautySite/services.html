@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0137)https://lms.brocku.ca/access/lessonbuilder/item/47287810/group/aec18fec-d656-491c-bdbf-332e283c2148/2019/Lectures/Week%20Eight/basic.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>Basic Page with CSS + Javascript</title>
+	<link href="./style.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster|Solway&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+
+
+	<h1>SAMANTHA BEAUTY</h1>
+
+		<button id="checkoutBtn" onclick="checkout()">Checkout</button>
+
+		<div>
+		<a href="home.html" id="home">HOME</a>
+		<a href="services.html" id="services" class="activePage">SERVICES</a>
+		<a href="about-me.html" id="about">ABOUT ME</a>
+		</div>
+
+		<h2 id="servicesHeader">SERVICES</h2>
+		
+		<p id="center"></p><br><br><br><br>
+		
+		<br><br>
+		<table>
+			<tr>
+				<td>
+					<div id="package1">
+						<h3>WEDDING</h3>
+						<p>Roughly 1.5 hours: includes makeup & hair trial, hairstyle for wedding day, full glam makeup, nails (false lashes included) <br><strong>$300</strong></p>
+						<button id="align-right" onclick="weddingAddToCart()">Add to Cart</button>
+					</div><br><br>
+				</td>
+				
+				<td>
+					<div id="package2">
+						<h3>PROM</h3>
+						<p>Roughly 1 hour: includes a consultation, soft or full glam makeup (fake lashes included) (hairstyle & nails cost extra) <strong>$100</strong></p>
+						<button id="align-right" onclick="promAddToCart()">Add to Cart</button>
+					</div><br><br>
+				</td>
+
+				<td>
+					<div id="package3">
+						<h3>BIRTHDAY</h3>
+						<p>Roughly 45 minutes: choice of soft or full glam makeup (false lashes $10 extra) (hairstyle & nails cost extra) <br><strong>$80</strong></p>
+						<button id="align-right" onclick="birthdayAddToCart()">Add to Cart</button>
+					</div><br><br>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<div id="package4">
+						<h3>SPECIAL OCCASION</h3>
+						<p>Roughly 45 minutes: includes choice of soft or full glam (false lashes $10 extra) (hairstyle & nails cost extra) <br><strong>$60</strong></p>
+						<button id="align-right" onclick="specialAddToCart()">Add to Cart</button>
+					</div><br><br>
+				</td>
+				
+				<td>
+					<div id="package5">
+						<h3>HAIR</h3>
+						<p>Hairstyles, Colouring & Cuts: prices and time vary depending on the services. Starting at<strong><br>$25</strong></p>
+						<button id="align-right" onclick="hairAddToCart()">Add to Cart</button>
+					</div><br><br>
+				</td>
+
+				<td>
+					<div id="package6">
+						<h3>LASH EXTENSIONS</h3>
+						<p>Full set of lashes: <strong>$75</strong><br> Lash refill: <strong>$40</strong><br> Removal: <strong>$20</strong></p>
+						<button id="align-right" onclick="lashAddToCart()">Add to Cart</button>
+					</div><br><br>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<div id="package7">
+						<h3>SPRAY TANNING</h3>
+						<p>3 Spray Tans: <strong>$85</strong><br> 5 Spray Tans: <strong>$140</strong><br> 10 Spray Tans: <strong>$215</strong></p>
+						<button id="align-right" onclick="tanningAddToCart()">Add to Cart</button>
+					</div><br><br>
+				</td>
+				
+				<td>
+					<div id="package8">
+						<h3>BROWS</h3>
+						<p>Waxing: <strong>$6</strong><br> Threading: <strong>$10</strong><br> Tinting: <strong>$15</strong><br></p>
+						<button id="align-right" onclick="browAddToCart()">Add to Cart</button>
+					</div><br><br>
+				</td>
+
+				<td>
+					<div id="package9">
+						<h3>NAILS</h3>
+						<p>Shellac <strong>$15</strong>, Acrylic <strong>$25</strong>, Manicure <strong>$15</strong>, Pedicure <strong>$25</strong>, Polish Removal <strong>$7</strong> (designs cost extra)</p>
+						<button id="align-right" onclick="nailsAddToCart()">Add to Cart</button>
+					</div><br><br>
+				</td>
+			</tr>
+		</table>
+
+		<footer>Website Designed and Created by : Samantha Phillips. Website Content: Beauty & Makeup</footer>
+
+</body>
+</html>
